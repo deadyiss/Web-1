@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Belajar Javascript</title>
 </head>
+
 <body>
     <h1 id="judul">Selamat belajar javascript</h1>
-    <input type="text" id="nama" placeholder="Masukkan nama Anda">
-    <button onclick="sapa()">
-        Klik saya!
-    </button>
-    <br>    
-    <br>
+
+    <input type="text" id="inputNama" placeholder="Masukkan nama Anda">
+    <button onclick="sapa()">Klik Saya!</button>
+    <br><br>
+
     <button onclick="ubahWarna()">Ubah Warna</button>
 
-    <script src="js/ubahWarna.js"></script>
-    <script src="js/sapa.js"></script>
+    <script src="js/hallo.js"></script>
+    <script src="js/warna.js"></script>
+
+    <script>
+        var nama = document.getElementById("inputNama").value;
+
+        function sapa() {
+            alert("Halo " + nama + " Selamat datang di halaman profil saya!");
+        }
+    </script>
 </body>
 </html>
