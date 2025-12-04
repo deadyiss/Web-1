@@ -57,24 +57,6 @@ header nav a {
     opacity: 0.9;
 }
 
-.cv-btn {     
-    font-weight: 600;         
-    padding: 10px 18px;           
-    display: inline-block;
-    padding: 12px 28px;
-    border-radius: 8px;
-    border: 2px solid #111;
-    background: transparent;
-    transition: 0.25s ease;
-    color: #111; 
-}
-
-.cv-btn:hover {
-    background: #111;
-    color: #fff;
-    transform: translateY(-2px);
-}
-
 
 /* HERO ------------------------------------------------------ */
 .hero {
@@ -120,6 +102,25 @@ header nav a {
     50% { transform: translateY(-10px); }
     100% { transform: translateY(0); }
 }
+
+.cv-btn {     
+    font-weight: 600;         
+    padding: 10px 18px;           
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 8px;
+    border: 2px solid #111;
+    background: transparent;
+    transition: 0.25s ease;
+    color: #111; 
+}
+
+.cv-btn:hover {
+    background: #111;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
 
 /* ABOUT ----------------------------------------------------- */
 .about {
@@ -176,13 +177,13 @@ header nav a {
     background: #eee;
 }
 
-/* PORTFOLIO ---------------------------------------------------- */
-.portfolio {
+/* PORTOFOLIO ---------------------------------------------------- */
+.portofolio {
     padding: 100px 8%;
     text-align: center;
 }
 
-.portfolio-grid {
+.portofolio-grid {
     margin-top: 35px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -262,27 +263,6 @@ header nav a {
     transform: translateY(0);
 }
 
-/* SCROLL TO TOP BUTTON ---------------------------------------- */
-#toTopBtn {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    width: 45px;
-    height: 45px;
-    border: none;
-    background: #111;
-    color: #fff;
-    border-radius: 50%;
-    font-size: 20px;
-    cursor: pointer;
-    display: none;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-    transition: opacity 0.3s ease;
-}
-
-#toTopBtn.show {
-    display: block;
-}
 
 /* RESPONSIVE (TABLET) ---------------------------------------- */
 @media (max-width: 900px) {
@@ -357,7 +337,7 @@ header nav a {
         width: 100%;
     }
 
-    /* PORTFOLIO */
+    /* PORTOFOLIO */
     .p-card {
         max-width: 100%;
     }
