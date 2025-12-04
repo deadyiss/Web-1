@@ -31,7 +31,7 @@
 
 
     <!-- HERO SECTION -->
-    <section class="hero" id="home">
+    <section class="hero reveal" id="home">
         <div class="hero-text">
             <p class="intro">Hi, I am</p>
             <h1>Dhea Arimbi Almalita<br><span>DevOps Engineer</span></h1>
@@ -48,7 +48,9 @@
                     </a>
                 </button>
 
-                <button class="btn-outline">CV</button>
+                <button class="btn-outline">
+                    <a href="assets/cv-dhea.pdf" target="_blank" class="cv-btn">CV</a>
+                </button>
             </div>
         </div>
 
@@ -60,9 +62,9 @@
 
 
     <!-- ABOUT ME -->
-    <section class="about" id="aboutme">
+    <section class="about reveal" id="aboutme">
         <div class="about-img">
-            <img src="https://i.ibb.co/Xz02yzq/man.png" alt="">
+            <img src="img/aboutme.png" alt="">
         </div>
 
         <div class="about-text">
@@ -95,33 +97,33 @@
 
 
     <!-- SERVICES -->
-    <section class="services" id="services">
+    <section class="services reveal" id="services">
         <h2>My Services</h2>
         <p class="sub">Providing scalable and efficient DevOps infrastructure solutions.</p>
 
         <div class="grid">
 
-            <div class="card">
+            <div class="card reveal">
                 <h3>CI/CD Pipeline</h3>
                 <p>Automating deployment workflows using GitLab CI, Jenkins, and GitHub Actions.</p>
             </div>
 
-            <div class="card">
+            <div class="card reveal">
                 <h3>Containerization</h3>
                 <p>Docker & Kubernetes setup for scalable and portable applications.</p>
             </div>
 
-            <div class="card">
+            <div class="card reveal">
                 <h3>Infrastructure Automation</h3>
                 <p>Infrastructure as Code using Ansible, Terraform, and cloud provisioning.</p>
             </div>
 
-            <div class="card">
+            <div class="card reveal">
                 <h3>Monitoring & Logging</h3>
                 <p>Setting up ELK Stack, Prometheus, Grafana dashboards, alerts & metrics.</p>
             </div>
 
-            <div class="card">
+            <div class="card reveal">
                 <h3>Laravel Server Deployment</h3>
                 <p>Deploying Laravel applications with Apache/Nginx, SSL, database setup, and optimization.</p>
             </div>
@@ -133,14 +135,14 @@
 
 
     <!-- PORTFOLIO -->
-    <section class="portfolio" id="portofolio">
+    <section class="portfolio reveal" id="portofolio">
         <h2>My Portofolio</h2>
         <p class="sub">Some of my DevOps, automation, and deployment projects.</p>
 
         <div class="portfolio-grid">
 
             <!-- PROJECT 1 -->
-            <div class="p-card">
+            <div class="p-card reveal">
                 <img src="img/tepak.png" alt="Project Preview">
                 <div class="p-content">
                     <h3>Website TEPAK</h3>
@@ -150,7 +152,7 @@
             </div>
 
             <!-- PROJECT 2 -->
-            <div class="p-card">
+            <div class="p-card reveal">
                 <img src="img/2048_game.png" alt="2048 Game">
                 <div class="p-content">
                     <h3>2048 Puzzle – Deployed on Vercel</h3>
@@ -160,7 +162,7 @@
             </div>
 
             <!-- PROJECT 3 -->
-            <div class="p-card">
+            <div class="p-card reveal">
                 <img src="img/cicd.png" alt="CI/CD Pipeline">
                 <div class="p-content">
                     <h3>CI/CD Deployment</h3>
@@ -172,7 +174,7 @@
         </div>
     </section>
 
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
+    <button id="toTopBtn">↑</button>
 </body>
 </html>
